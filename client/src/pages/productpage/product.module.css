@@ -1,0 +1,43 @@
+.card{
+    width: fit-content;
+    margin-right: 15px;
+    margin-top: 20px;
+    height: 400px;
+}
+.atag{
+    text-decoration: none;
+}
+.card img{
+    width: 200px;
+    margin: 20px;
+    border: 1px solid black;
+    object-fit: contain;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+
+}
+.button{
+    border-radius: 2px;
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+.button:hover{
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 102, 255, 0.966);   
+        transition: 1s;
+}       
+.card:hover{
+        box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+        transition: 0.5s;
+        cursor: pointer;
+}
+.leftside{
+    z-index: 1;
+    position: fixed;
+    
+}
+.rigthside{
+    margin-left: 370px;
+}

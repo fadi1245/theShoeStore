@@ -1,0 +1,70 @@
+.box{
+    display: flex;
+}
+.details h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}   
+.details h3{
+    padding-left: 30px;
+}
+.details h5{
+    padding-left: 30px;
+    font-weight: 100;
+}
+.sizes{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.sizes h5{
+    border: 1px solid rgba(0, 0, 0, 0.297);
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.sizes h5:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.addtocart{
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.addtocart:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feutures div{
+    display: flex;
+}
+.bottompart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.bottomleft{
+    width: 500px;
+}
+.feutures div img{
+    width: 40px;
+    margin-right: 20px;
+}
+.feutures{
+    margin-top: 20px;
+}
+.feutures p{
+    margin-top: 5px;
+}

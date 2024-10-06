@@ -1,0 +1,36 @@
+.topdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.topdiv input{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.topdiv button
+{
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.images{
+    width: 60px;
+}
+.editbutton{
+        width: 70px;
+        margin-bottom: 5px;
+        border: none;
+}
+.deletebutton{
+        width: 70px;
+        border: none;
+}
+.deletebutton:hover{
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+.editbutton:hover{
+    background-color: antiquewhite;
+    transition: 0.5s;
+}

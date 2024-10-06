@@ -1,0 +1,25 @@
+.sidebar{
+    width: 400px;
+}
+.sidebar div{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.sidebar div img{
+    width: 45px;
+}
+.sidebar div p{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.sidebar div:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}

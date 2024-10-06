@@ -1,0 +1,37 @@
+.mainbox{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.thumbnails{
+    width: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.187);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.mainimage{
+    width: 80%;
+}
+.mainimgcontainer{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-right: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 600px;
+    width: 700px;
+}
+.thumbnails:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  

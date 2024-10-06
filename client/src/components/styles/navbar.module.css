@@ -1,0 +1,89 @@
+.logo{
+    width: 180px;
+}
+.navbar{
+    background-color: black;
+}
+.rigthicons{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 35px;
+    padding-right: 35px;
+}
+.rigthicons img{
+    margin-left: 20px;
+}
+.rigthicons img:hover{
+    cursor: pointer;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.secondnav{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    margin-bottom: 5px;
+}
+.searchbox{
+    border: 5px solid black;
+    width: 200px;
+    height: 35px;
+
+}
+
+.snright{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
+.searchicon{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.snleft{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.snleft:hover{
+    background-color: rgb(190, 189, 189);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.searchicon:hover{
+    cursor: pointer;
+}
+.thirdnav{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(194, 194, 194);
+}
+.thirdnav div{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.thirdnav div a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+}
+.thirdnav div:hover{
+    background-color: rgb(141, 141, 141);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.thirdnav img{
+    width: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.uorbrand{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+
+  }
+
+  .uorbrandline{
+    height: 10px;
+    background-color: black;
+    width: 10%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .maingrid{
+    background-color: red;
+  }
+  .grids{
+    background-color: blue;
+  }
+  .imagecontainer{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 270px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+  }
+  .imagecontainer img{
+    width: 150px;
+  }
+  .imagecontainer:hover{
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    transition: 1s;
+    padding-left: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .secondline{
+    height: 10px;
+    background-color: black;
+  }
+  .logo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+.banner{
+  background-image: url('../mainpage/assets/ad.jpg');
+  background-size: cover;
+  background-position: bottom;
+  width: 100% auto;
+  height: 400px;
+}
+.para{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 250px;
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topimage img{
+    width: 500px;
+}
+.topimage{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.bottomimg img{
+  width: 300px;
+}
+.bottomimg{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

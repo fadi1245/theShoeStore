@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 50px;  
+    color: black;
+    text-align: center;
+}
+
+.rightside{
+    width: 500px;
+    background-image: url('./asset/regimg.jpg');
+    background-size: cover;
+    background-color: red;
+    height: 600px;
+
+}
+.maindiv{
+    display: flex;
+    height: 565px;
+    justify-content: center;
+    padding-top: 70px;
+
+    
+}
+.back{
+    background-image: url('./asset/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+
+}
+
+.formelements{
+    width: 250px;
+
+}
+.question{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 50px;
+}
+.question:hover{
+    color: rgb(49, 49, 49);
+}

@@ -1,0 +1,111 @@
+.itembox{
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 900px; 
+}
+.rigthside{
+    display: flex;
+    padding-top: 40px;
+}
+.rigthside img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.leftside img{
+    width: 130px;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.rigthside div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.leftside{
+    display: flex;
+}
+.rigthside img:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.shoename{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.shoeprice{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.heading{
+    margin: 0;
+    text-align: start;
+    padding-left: 80px;
+    padding-bottom: 0%; 
+}
+.buttongroup{
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.buttongroup button{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+/* .maindiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+} */
+.chekoutbtn{
+    width: 200px;
+    border-radius: 10px;
+
+}
+.chekoutbtn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+.empty{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 500px;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: 400px;
+} 
+
+.seconmaindiv{
+    display: inline-block;
+}
+.maindiv{
+    display: flex;
+}
+.pricebox button{
+    display: block;
+    margin-bottom: 30px;
+    width: 300px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.total{
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 100px;
+    margin-left: 20px;
+}
+.pricebox{
+    margin-top: 100px;
+}
+.pricebox p{
+    margin-left: 20px;
+}

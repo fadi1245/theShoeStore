@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.Carousel{
+    background-image: url('../componentsassets/carouselbg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) */
+    justify-content: flex-start; /* Align items to the start (left) */
+    padding: 20px; /* Optional: Add padding to adjust the positioning */
+    color: white; /* Ensure text is visible on the background */
+}
+.main{
+    text-align: left; /* Remove default centering */
+  display: block; /* Override flexbox centering */
+}
+.shoeimage{
+  width: 650px;
+  padding-left: 50px;
+}
+
+
+h1{
+  font-family: "Roboto Slab", serif;
+}
+.shoename{
+  color: white;
+  font-size: 70px;
+}
+.shoebutton{
+  margin-top: 450px;
+  margin-right: 100px;
+  font-weight: bold;
+}
+.shoebutton:hover{
+  cursor: pointer;
+  background-color: grey;
+  transition: 1s;
+}

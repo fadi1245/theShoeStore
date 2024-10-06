@@ -1,0 +1,60 @@
+.firstline{
+    height: 10px;
+    background-color: black;
+    margin-top: 20px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* .leftside{
+
+} */
+
+.leftside button{
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+.logoo{
+    width: 180px;
+}
+.links img{
+    width: 30px;
+}
+.rightside{
+    display: flex;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.rightside div{
+    padding-right: 30px;
+}
+.head{
+    font-weight: bold;
+}
+.leftside button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    transition: 0.5s;
+}
+
+.links img:hover{
+    cursor: pointer;
+}
+.rightside p:hover{
+    cursor: pointer;
+    color: rgb(105, 103, 103);
+}
+.final{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

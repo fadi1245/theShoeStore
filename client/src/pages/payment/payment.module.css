@@ -1,0 +1,60 @@
+.outerbox{
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    height: 100vh;            
+    gap: 30px;
+
+
+}
+.rightbox{
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+.email{
+    width: 350px;
+    margin-bottom: 20px;
+}
+.carnumber{
+    margin-bottom: 10px;
+}
+.expiry{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.cvv{
+    width: 100px;
+}
+.paybutton{
+    width: 70px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.724);
+    color: white;
+}
+.leftbox h3{
+    padding-bottom: 30px;
+}
+.leftbox button{
+    width: 150px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+.leftbox button:hover{
+    background-color: rgba(215, 172, 172, 0.26);
+    color: black;
+    transition: 0.5s;
+}
+.main{
+    background-image: url('../../assets/paymentback.jpg');
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+}

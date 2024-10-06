@@ -1,0 +1,78 @@
+.box {
+    height: auto;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+  }
+  
+  .outbox {
+    display: flex;
+    justify-content: center;
+    background-image: url('../login/assets/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    width: 20%;
+    padding: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link:hover {
+    color: rgb(249, 249, 249);
+    transition: 0.5s;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-size: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .box {
+      width: 80%;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .box {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 30px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+  }
+ 
+  .fomrelements{
+    width: 50%;
+  }
